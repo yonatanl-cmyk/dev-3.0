@@ -389,6 +389,7 @@ describe("saveSettings", () => {
 			importShellEnv: false,
 			focusMode: true,
 			agentRateLimitTracking: false,
+			autoAccountDefault: { claude: true },
 			watchByDefault: true,
 			suggestCompletingTasksAfterMerge: false,
 			prOriginTaskLink: false,

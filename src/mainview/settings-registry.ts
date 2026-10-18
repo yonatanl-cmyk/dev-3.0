@@ -608,6 +608,8 @@ export const SETTINGS_GLOBAL_FIELD_EXCLUSIONS = [
 	"importShellEnv",
 	"agentsLayoutRevision",
 	"favorites",
+	// Written by the account surfaces' "Auto (balanced)" default row, not a settings control.
+	"autoAccountDefault",
 	// One-way discovery flag for the header's `?`, set by opening help mode — not
 	// a preference and deliberately not user-resettable.
 	"helpModeDiscovered",
@@ -673,6 +675,7 @@ export const GLOBAL_SETTINGS_FIELDS = [
 	"shellPromptCustom",
 	"focusMode",
 	"agentRateLimitTracking",
+	"autoAccountDefault",
 	"watchByDefault",
 	"suggestCompletingTasksAfterMerge",
 	"prOriginTaskLink",
